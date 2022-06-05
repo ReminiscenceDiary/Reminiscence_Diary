@@ -1,49 +1,50 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import { useIsFocused } from '@react-navigation/native';
 import { format } from "date-fns";
 import { Calendar } from "react-native-calendars";
-import { Button, StyleSheet, View } from "react-native";
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import { StyleSheet, View } from "react-native";
+
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export default function CalendarScreen({ navigation }) {
-
-  const posts = [
-    {
-      id: 1,
-      keyword: "keyword1",
-      contents: "내용입니다.",
-      emotion: "blue",
-      date: "2022-05-22",
-    },
-    {
-      id: 2,
-      keyword: "keyword2",
-      contents: "내용입니다.",
-      emotion: "red",
-      date: "2022-05-28",
-    },
-    {
-      id: 3,
-      keyword: "keyword3",
-      contents: "내용입니다.",
-      emotion: "red",
-      date: "2022-05-23",
+  
+  const [markedDates, setmarkedDates] = useState({});
+  const isFocused = useIsFocused();
+  const [isEmpty, setIsEmpty] = useState(true);
+  const [loading, setLoading] = useState(false)
+  
+  useEffect(() => {
+    if (isFocused) {
+        const firstLoad = async () => {
+          try {
+            const loadedDiarys = await AsyncStorage.getItem('diarys');
+            if(loadedDiarys){
+              const loadedColors = await AsyncStorage.getItem('colors')
+              const diaryInfo = Object.values(JSON.parse(loadedDiarys));
+              const ColorInfo = JSON.parse(loadedColors)
+              const currentColors = Object.assign(ColorInfo)
+              const b = diaryInfo.reduce((acc, current) => {
+                const formattedDate = format(new Date(current.date), 'yyyy-MM-dd');
+                acc[formattedDate] = {marked: true, keyword: current.keyword, colors: currentColors[current.emotion]};
+                return acc;
+              }, {});
+              if(Object.entries(diaryInfo).length > 0)
+                setmarkedDates(b);
+            }
+            else setIsEmpty(true)
+          }catch (err) {
+            throw err;
+        }
+      }
+      setLoading(true);
+      firstLoad()
     }
-  ];
-
-  const markedDates = posts.reduce((acc, current) => {
-    const formattedDate = format(new Date(current.date), 'yyyy-MM-dd');
-    acc[formattedDate] = {marked: true, keyword: current.keyword, colors: current.emotion};
-    return acc;
-  }, {});
+  }, [isFocused]);
 
   const [selectedDate, setSelectedDate] = useState(
     format(new Date(), "yyyy-MM-dd"),
   );
 
-  const markedSelectedDates = {
-    ...markedDates,
-  };
 
   return (
         <View style = {{backgroundColor: 'rgba(249, 235, 200, 0.11)', height: '100%', justifyContent: "center", alignItems :'center'}}>
@@ -59,8 +60,14 @@ export default function CalendarScreen({ navigation }) {
             }} 
             onDayPress={(day) => {
               setSelectedDate(day.dateString);
-              console.log(selectedDate);
-              navigation.navigate('AddDiaryScreen', {date: day.dateString});
+              if(Object.keys(markedDates).includes(day.dateString)){
+                navigation.navigate('WrittenDiaryScreen', {date: day.dateString})
+                setLoading(false);
+              }
+              else{
+                navigation.navigate('AddDiaryScreen', {date: day.dateString})
+                setLoading(false);
+              }
             }}
             />
         </View>
