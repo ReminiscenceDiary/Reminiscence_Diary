@@ -65,13 +65,13 @@ function AddDiaryScreen({route, navigation}) {
           const loadedColors = await AsyncStorage.getItem('colors')
             if(!loadedColors){
               const newColorObject = {
-                Happy: '#3F9D2F', Angry: '#FA7470', Gloomy: '#439DBB', Sad: '#AAAAAA'
+                Happy: '#3F9D2F', Angry: '#FA7470', Gloomy:'#AAAAAA', Sad: '#439DBB'
               }
               _saveColors({...colors, ...newColorObject});
               setColor_H('#3F9D2F')
               setColor_A('#FA7470')
-              setColor_S('#AAAAAA')
-              setColor_G('#439DBB')
+              setColor_S('#439DBB')
+              setColor_G('#AAAAAA')
             }
             else{
               const ColorInfo = JSON.parse(loadedColors)
