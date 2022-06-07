@@ -15,6 +15,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const DiaryStack = createStackNavigator();
 const SettingsStack = createStackNavigator();
+const StatisticsStack = createStackNavigator();
 
 function DiaryStackScreen() {
   return (
@@ -34,6 +35,14 @@ function SettingsStackScreen()  {
       <SettingsStack.Screen name="SelectColorScreen" component={SelectColorScreen} options={{ headerShown: false }} />
       <SettingsStack.Screen name="HowtoUseScreen" component={HowtoUseScreen} options={{ headerShown: false }} />
     </SettingsStack.Navigator>
+  );
+}
+
+function StatisticsStackScreen()  {
+  return (
+    <StatisticsStack.Navigator>
+      <StatisticsStack.Screen name="StatisticsScreen" component={StatisticsScreen} options={{ headerShown: false }} />
+    </StatisticsStack.Navigator>
   );
 }
 
@@ -75,7 +84,7 @@ export default function App() {
 
           <Tab.Screen name="Settings" component={SettingsStackScreen} options={{ headerShown: false }}/>
           <Tab.Screen name="Calendar" component={DiaryStackScreen} options={{ headerShown: false }}/>
-          <Tab.Screen name="Statistics" component={StatisticsScreen} options={{ headerShown: false }}/>
+          <Tab.Screen name="Statistics" component={StatisticsStackScreen} options={{ headerShown: false }}/>
       </Tab.Navigator>
     </NavigationContainer>
   );
