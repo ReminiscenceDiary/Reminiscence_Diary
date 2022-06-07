@@ -14,8 +14,8 @@ Dayoon Jun<br>[DAYOON0836](https://github.com/DAYOON0836)| Overall Development E
 # 🎬 Introduction + Demo URL : 
 [ReminiscenceDiary Demo](https://www.youtube.com/watch?v=cm_zXsWsyHE/)
 # Simple Task
-<img src="https://user-images.githubusercontent.com/58158103/172421050-15cf668f-02fa-41d2-9595-87290348bf70.gif" width="250" height="550" align="left"/> 
-<img src="https://user-images.githubusercontent.com/58158103/172423812-ef3f7abc-0e81-433c-86ce-438ba82a19db.gif" width="250" height="550" align="right"/> 
+<img src="https://user-images.githubusercontent.com/58158103/172421050-15cf668f-02fa-41d2-9595-87290348bf70.gif" width="250" height="550"/></p>
+<img src="https://user-images.githubusercontent.com/58158103/172423812-ef3f7abc-0e81-433c-86ce-438ba82a19db.gif" width="250" height="550"/> 
 
 
 # 🔎 How To Use:
