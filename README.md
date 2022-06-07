@@ -12,6 +12,7 @@ Dayoon Jun<br>[DAYOON0836](https://github.com/DAYOON0836)| Overall Development E
 # 📎 Link To Download apk  :
 [ReminiscenceDiary.apk](https://drive.google.com/file/d/1RnQFC78rwDjmVaMEPC9zzcOTaICkA1Ps/view?usp=sharing/)
 # 🎬 Introduction + Demo URL : 
+[ReminiscenceDiary Demo](https://www.youtube.com/watch?v=cm_zXsWsyHE/)
 # 🔎 How To Use:
 1.	Users select a specific date and can write a diary if there is no diary written down on that day. Tapping the date on the calendar will move the users from the Main(calendar) screen to the Writing Diary screen.
 2.	After writing a diary, Users input the keyword and emotion about the day. Users can input their own emotion and the keyword or have automatically generated ones by pressing the auto button.
