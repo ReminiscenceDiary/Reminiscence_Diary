@@ -1,9 +1,8 @@
 # <img width="70" alt="스크린샷 2022-06-07 오후 7 09 05" src="https://user-images.githubusercontent.com/58158103/172359892-4d07081f-ce45-4197-a4e1-fe8ed402248f.png"> Reminiscence Diary
+we came up with an app that shows keywords and short summary sentence of the diary, specify colors for each emotion, and shows them on the calendar.
 # 👏 2022-1 Human-Computer Interaction : Team 12 Elite
 Sohyu Han : [sh329](https://github.com/sh329), Seokyung Lee : [skldd](https://github.com/skldd)</br>
 Dayoon Jun : [DAYOON0836](https://github.com/DAYOON0836), Susana Marie Denouel Boutillier : [Susanadnl](https://github.com/Susanadnl)</br>
-# ✏️ Introduction 
-we came up with an app that shows keywords and short summary sentence of the diary, specify colors for each emotion, and shows them on the calendar.
 # ⚙️ Development
 * Frontend <img src="https://img.shields.io/badge/React native-61DAFB? style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Expo-000020? style=flat&logo=Expo&logoColor=white"/></br>
 # 📎 Link To Prototype:
