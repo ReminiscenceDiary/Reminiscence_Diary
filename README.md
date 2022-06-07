@@ -5,9 +5,9 @@ Sohyu Han, Seokyung Lee, Dayoon Jun, Susana Marie Denouel Boutillier
 ## ✏️ Introduction 
 we came up with an app that shows keywords and short summary sentence of the diary, specify colors for each emotion, and shows them on the calendar.
 ## ⚙️ Development
-* Frontend <img src="https://img.shields.io/badge/React native-61DAFB? style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Expo-000020? style=flat&logo=Expo&logoColor=white"/><p>
-## <b>Link To Prototype: </b>
-[Reminiscence Diary - Proto.io](https://share.proto.io/F4PKA5/)<br/>
+* Frontend <img src="https://img.shields.io/badge/React native-61DAFB? style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Expo-000020? style=flat&logo=Expo&logoColor=white"/><p></br>
+## 📎 Link To Prototype:
+[Reminiscence Diary - Proto.io](https://share.proto.io/F4PKA5/)
 ## 🔎 How To Use:
 1.	Users select a specific date and can write a diary if there is no diary written down on that day. Tapping the date on the calendar will move the users from the Main(calendar) screen to the Writing Diary screen.
 2.	After writing a diary, Users input the keyword and emotion about the day. Users can input their own emotion and the keyword or have automatically generated ones by pressing the auto button.
