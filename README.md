@@ -1,4 +1,8 @@
+2022-1 Human-Computer Interaction
+Team 12 Elite : Sohyu Han, Seokyung Lee, Dayoon Jun, Susana Marie Denouel Boutillier
+>
 # <img width="70" alt="스크린샷 2022-06-07 오후 7 09 05" src="https://user-images.githubusercontent.com/58158103/172359892-4d07081f-ce45-4197-a4e1-fe8ed402248f.png"> Reminiscence_Diary
+> ## Introduction
 > ## <b>Link To Prototype: </b>
 [Reminiscence Diary - Proto.io](https://share.proto.io/F4PKA5/)<br/>
 > ## How To Use:
