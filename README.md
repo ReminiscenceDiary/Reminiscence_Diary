@@ -4,7 +4,7 @@ we came up with an app that shows keywords and short summary sentence of the dia
 Sohyu Han : [sh329](https://github.com/sh329), Seokyung Lee : [skldd](https://github.com/skldd)</br>
 Dayoon Jun : [DAYOON0836](https://github.com/DAYOON0836), Susana Marie Denouel Boutillier : [Susanadnl](https://github.com/Susanadnl)</br>
 # ⚙️ Development
-* Frontend <img src="https://img.shields.io/badge/React native-61DAFB? style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Expo-000020? style=flat&logo=Expo&logoColor=white"/></br>
+* Frontend <img src="https://img.shields.io/badge/React native-61DAFB? style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Expo-000020? style=flat&logo=Expo&logoColor=white"/> <img src="https://img.shields.io/badge/Android-3DDC84? style=flat&logo=Expo&logoColor=white"/></br>
 # 📎 Link To Prototype:
 [Reminiscence Diary - Proto.io](https://share.proto.io/F4PKA5/)
 # 🎬 Introduction + Demo URL
