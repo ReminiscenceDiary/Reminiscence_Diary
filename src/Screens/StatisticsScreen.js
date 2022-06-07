@@ -17,7 +17,7 @@ function getSortedArr(array) {
     return [[" ", " "], [" ", " "], [" ", " "]]
   
   if (array.length === 1)
-    return [array[0], [" ", " "], [" ", " "]]
+    return [[array[0], " "], [" ", " "], [" ", " "]]
 
   const counts = array.reduce((pv, cv)=>{
       pv[cv] = (pv[cv] || 0) + 1;
@@ -34,9 +34,10 @@ function getSortedArr(array) {
       return second[1] - first[1];
   });
 
-  if (result.length === 2)
-    result.push([" ", " "])
-  
+  if (result.length < 3){
+    result.push(...[[" ", " "],[" ", " "]])
+  }
+
   return result
 }
 
