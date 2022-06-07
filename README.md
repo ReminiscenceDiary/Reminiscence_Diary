@@ -1,4 +1,4 @@
-<img width="320" alt="스크린샷 2022-06-07 오후 7 09 05" src="https://user-images.githubusercontent.com/58158103/172359892-4d07081f-ce45-4197-a4e1-fe8ed402248f.png"> # Reminiscence_Diary
+<img width="120" alt="스크린샷 2022-06-07 오후 7 09 05" src="https://user-images.githubusercontent.com/58158103/172359892-4d07081f-ce45-4197-a4e1-fe8ed402248f.png"> ## Reminiscence_Diary
 > ## <b>Link To Prototype: </b>
 [Reminiscence Diary - Proto.io](https://share.proto.io/F4PKA5/)<br/>
 > ## How To Use:
