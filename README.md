@@ -1,9 +1,9 @@
+# <img width="70" alt="스크린샷 2022-06-07 오후 7 09 05" src="https://user-images.githubusercontent.com/58158103/172359892-4d07081f-ce45-4197-a4e1-fe8ed402248f.png"> Reminiscence_Diary
 2022-1 Human-Computer Interaction
 Team 12 Elite : Sohyu Han, Seokyung Lee, Dayoon Jun, Susana Marie Denouel Boutillier
->
-# <img width="70" alt="스크린샷 2022-06-07 오후 7 09 05" src="https://user-images.githubusercontent.com/58158103/172359892-4d07081f-ce45-4197-a4e1-fe8ed402248f.png"> Reminiscence_Diary
-> ## Introduction
-> ## <b>Link To Prototype: </b>
+## Introduction 
+we came up with an app that shows keywords and short summary sentence of the diary, specify colors for each emotion, and shows them on the calendar.
+## <b>Link To Prototype: </b>
 [Reminiscence Diary - Proto.io](https://share.proto.io/F4PKA5/)<br/>
 > ## How To Use:
 1.	Users select a specific date and can write a diary if there is no diary written down on that day. Tapping the date on the calendar will move the users from the Main(calendar) screen to the Writing Diary screen.
