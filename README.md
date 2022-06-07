@@ -1,7 +1,8 @@
 # <img width="70" alt="스크린샷 2022-06-07 오후 7 09 05" src="https://user-images.githubusercontent.com/58158103/172359892-4d07081f-ce45-4197-a4e1-fe8ed402248f.png"> Reminiscence Diary
 2022-1 Human-Computer Interaction
 Team 12 Elite
-Sohyu Han [sh329], Seokyung Lee[skldd], Dayoon Jun(https://github.com/DAYOON0836), Susana Marie Denouel Boutillier
+Sohyu Han [sh329], Seokyung Lee[skldd], 
+Dayoon Jun [DAYOON0836](https://github.com/DAYOON0836), Susana Marie Denouel Boutillier
 ## ✏️ Introduction 
 we came up with an app that shows keywords and short summary sentence of the diary, specify colors for each emotion, and shows them on the calendar.
 ## ⚙️ Development
