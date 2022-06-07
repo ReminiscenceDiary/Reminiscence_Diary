@@ -5,7 +5,7 @@ Sohyu Han, Seokyung Lee, Dayoon Jun, Susana Marie Denouel Boutillier
 ## ✏️ Introduction 
 we came up with an app that shows keywords and short summary sentence of the diary, specify colors for each emotion, and shows them on the calendar.
 ## ⚙️ Development
-* Frontend <img src="https://img.shields.io/badge/React-61DAFB style=flat&logo=React&logoColor=white"/><p>
+* Frontend <img src="https://img.shields.io/badge/React native-61DAFB? style=flat&logo=React&logoColor=white"/><p>
 ## <b>Link To Prototype: </b>
 [Reminiscence Diary - Proto.io](https://share.proto.io/F4PKA5/)<br/>
 ## 🔎 How To Use:
