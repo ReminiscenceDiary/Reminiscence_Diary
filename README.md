@@ -12,7 +12,7 @@ Dayoon Jun<br>[DAYOON0836](https://github.com/DAYOON0836)| Overall Development E
 # 📎 Link To Prototype :
 [Reminiscence Diary - Proto.io](https://share.proto.io/F4PKA5/)
 # 📎 Link To Download apk  :
-[https://drive.google.com/file/d/1RnQFC78rwDjmVaMEPC9zzcOTaICkA1Ps/view?usp=sharing]
+[ReminiscenceDiary.apk](https://drive.google.com/file/d/1RnQFC78rwDjmVaMEPC9zzcOTaICkA1Ps/view?usp=sharing/)
 # 🎬 Introduction + Demo URL : 
 # 🔎 How To Use:
 1.	Users select a specific date and can write a diary if there is no diary written down on that day. Tapping the date on the calendar will move the users from the Main(calendar) screen to the Writing Diary screen.
