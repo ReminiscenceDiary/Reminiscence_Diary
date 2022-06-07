@@ -18,12 +18,10 @@ Dayoon Jun : [DAYOON0836](https://github.com/DAYOON0836), Susana Marie Denouel B
 6.	If users want to delete the diary, they can tab the Delete button on the top.
 7.	If users want to change the color of an emotion, they go in to the Setting screen by tapping Setting button on the bottom navigation bar. Then, they tap the “select color for emotion” menu and can select color to change for the emotion.
 8.	By tapping Statistics button on the bottom navigation bar, users can check their mode chart and the most frequently used keyword by date and month.
-> ## <b>Prototype Limitations:</b>
+# ✏️ Application Limitations:
 <ul type="disc">
-<li> Input users’ own diary is not available. </li>
-<li> Actual extraction of keywords, emotion and summary sentence is not available because users can't write their own diary. </li>
-<li> We left out most of Setting page to focus on our three tasks and simplify taskflows. </li>
-<li> Selecting between two colors for one emotion(Happy) is only available. </li>
-<li> Changing the month of calendar on the Main screen is not available. </li>
-<li> Change the month of monthly statistics on the Statistics Screen is not available. </li>
+<li> the accuracy of the extracting function is not good enough. </li>
+<li> Extracted keywords may not be the real main keyword of the diary, and summary sentence may not include the overall content because it just extracts the one key sentence from the whole diary entries. </li>
+<li> only Happy and Angry are automatically extracted and its accuracy is low. </li>
+<li> We could not implement Password and Notification function of Setting. </li>
 
