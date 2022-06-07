@@ -20,8 +20,8 @@ Dayoon Jun : [DAYOON0836](https://github.com/DAYOON0836), Susana Marie Denouel B
 8.	By tapping Statistics button on the bottom navigation bar, users can check their mode chart and the most frequently used keyword by date and month.
 # ✏️ Application Limitations:
 <ul type="disc">
-<li> the accuracy of the extracting function is not good enough. </li>
+<li> The accuracy of the extracting function is not good enough. </li>
 <li> Extracted keywords may not be the real main keyword of the diary, and summary sentence may not include the overall content because it just extracts the one key sentence from the whole diary entries. </li>
-<li> only Happy and Angry are automatically extracted and its accuracy is low. </li>
+<li> Only Happy and Angry are automatically extracted and its accuracy is low. </li>
 <li> We could not implement Password and Notification function of Setting. </li>
 
