@@ -16,8 +16,8 @@ function getSortedArr(array) {
   if (array.length === 0)
     return [[" ", " "], [" ", " "], [" ", " "]]
   
-  if (array.length === 1)
-    return [[array[0], " "], [" ", " "], [" ", " "]]
+  if (array.length === 0)
+    return [array[0], [" ", " "], [" ", " "]]
 
   const counts = array.reduce((pv, cv)=>{
       pv[cv] = (pv[cv] || 0) + 1;
@@ -34,10 +34,10 @@ function getSortedArr(array) {
       return second[1] - first[1];
   });
 
-  if (result.length < 3){
-    result.push(...[[" ", " "],[" ", " "]])
-  }
-
+  if (result.length === 2)
+    result.push([" ", " "])
+  
+  console.log(result)
   return result
 }
 
@@ -47,7 +47,6 @@ function StatisticsScreen() {
     { label: "Daily", value: "Daily"},
     { label: "Monthly", value: "Monthly"},
   ];
-
   const [diaryInfo, setDiaryInfo] = useState({});
   const [data_D, setData_D] = useState({});
   const isFocused = useIsFocused();
@@ -167,7 +166,7 @@ function StatisticsScreen() {
          <View style={styles.month}>
             { MonthlyView && <View style={styles.monthly}>
               <TouchableOpacity onPress={() => {setDate(subMonths(date, 1)); Cal_Monthy(subMonths(date, 1))}}>< Ionicons name="chevron-back" size={35} color="black" /></TouchableOpacity>
-              <Text stye = {{fontSize: 30}}>{format(date, 'MMMM')}</Text>
+              <Text stye ={{fontSize: 30}}>{format(date, 'MMMM')}</Text>
               <TouchableOpacity onPress={() => {setDate(addMonths(date, 1)); Cal_Monthy(addMonths(date, 1))}}>< Ionicons name="chevron-forward-outline" size={35} color="black" /></TouchableOpacity>
             </View>}
           </View>
@@ -188,7 +187,7 @@ function StatisticsScreen() {
             onPress={value => {if(value === 'Monthly') {Cal_Monthy(date); setDailyView(false); setMonthlyView(true)} else {setMonthlyView(false); setDailyView(true); setKeywords(keywords_D)} }}
             />
           <View style={styles.graph}>
-            { DailyView &&<LineChart
+          { DailyView &&<LineChart
                   data={{
                     labels: Object.keys(data_D),
                     datasets: [{data: Object.values(data_D)}]
@@ -284,8 +283,7 @@ const styles = StyleSheet.create({
   monthly:{
     flex: 1,
     flexDirection:'row',
-    justifyContent: 'space-between',
-    alignItems: 'center'
+    justifyContent: 'space-between'
   },
   graphView:{
     flex: 4.5,
