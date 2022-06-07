@@ -1,11 +1,14 @@
-# <img width="70" alt="스크린샷 2022-06-07 오후 7 09 05" src="https://user-images.githubusercontent.com/58158103/172359892-4d07081f-ce45-4197-a4e1-fe8ed402248f.png"> Reminiscence_Diary
+# <img width="70" alt="스크린샷 2022-06-07 오후 7 09 05" src="https://user-images.githubusercontent.com/58158103/172359892-4d07081f-ce45-4197-a4e1-fe8ed402248f.png"> Reminiscence Diary
 2022-1 Human-Computer Interaction
-Team 12 Elite : Sohyu Han, Seokyung Lee, Dayoon Jun, Susana Marie Denouel Boutillier
-## Introduction 
+Team 12 Elite
+Sohyu Han, Seokyung Lee, Dayoon Jun, Susana Marie Denouel Boutillier
+## ✏️ Introduction 
 we came up with an app that shows keywords and short summary sentence of the diary, specify colors for each emotion, and shows them on the calendar.
+## ⚙️ Development
+* Frontend <img src="https://img.shields.io/badge/React native-61DAFB style=flat&logo=React&logoColor=white"/><p>
 ## <b>Link To Prototype: </b>
 [Reminiscence Diary - Proto.io](https://share.proto.io/F4PKA5/)<br/>
-> ## How To Use:
+## 🔎 How To Use:
 1.	Users select a specific date and can write a diary if there is no diary written down on that day. Tapping the date on the calendar will move the users from the Main(calendar) screen to the Writing Diary screen.
 2.	After writing a diary, Users input the keyword and emotion about the day. Users can input their own emotion and the keyword or have automatically generated ones by pressing the auto button.
 3.	When users press the Done button on the top, everything they have written is saved and the emotion and keyword are marked on the calendar of the Main screen.
