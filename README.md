@@ -16,8 +16,7 @@ Dayoon Jun<br>[DAYOON0836](https://github.com/DAYOON0836)| Overall Development E
 # ⭐ Simple Task
 <img src="https://user-images.githubusercontent.com/58158103/172421050-15cf668f-02fa-41d2-9595-87290348bf70.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58158103/172423812-ef3f7abc-0e81-433c-86ce-438ba82a19db.gif" width="250" height="550"/> 
 # ⭐ Moderate Task
-<img src="https://user-images.githubusercontent.com/58158103/172425688-0cc99025-7959-4554-9bc6-f3b9d6cd8e6c.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58158103/172425910-3b6741fd-c46c-4dcb-bf6b-b476f36ec77c.gif
-" width="250" height="550"/> 
+<img src="https://user-images.githubusercontent.com/58158103/172425688-0cc99025-7959-4554-9bc6-f3b9d6cd8e6c.gif" width="250" height="550"/> <img src="https://user-images.githubusercontent.com/58158103/172425910-3b6741fd-c46c-4dcb-bf6b-b476f36ec77c.gif" width="250" height="550"/> 
 
 # 🔎 How To Use:
 1.	Users select a specific date and can write a diary if there is no diary written down on that day. Tapping the date on the calendar will move the users from the Main(calendar) screen to the Writing Diary screen.
