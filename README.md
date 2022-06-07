@@ -14,7 +14,7 @@ Dayoon Jun<br>[DAYOON0836](https://github.com/DAYOON0836)| Overall Development E
 # 🎬 Introduction + Demo URL : 
 [ReminiscenceDiary Demo](https://www.youtube.com/watch?v=cm_zXsWsyHE/)
 # Simple Task
-<img src="https://user-images.githubusercontent.com/58158103/172421050-15cf668f-02fa-41d2-9595-87290348bf70.gif" width="450" height="650"/> 
+<img src="https://user-images.githubusercontent.com/58158103/172421050-15cf668f-02fa-41d2-9595-87290348bf70.gif" width="450" height="750"/> 
 
 # 🔎 How To Use:
 1.	Users select a specific date and can write a diary if there is no diary written down on that day. Tapping the date on the calendar will move the users from the Main(calendar) screen to the Writing Diary screen.
