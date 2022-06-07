@@ -9,8 +9,6 @@ Dayoon Jun<br>[DAYOON0836](https://github.com/DAYOON0836)| Overall Development E
 |Susana Marie Denouel Boutillier<br> [Susanadnl](https://github.com/Susanadnl)| Presentation
 # ⚙️ Development
 * Frontend <img src="https://img.shields.io/badge/React native-61DAFB? style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Expo-000020? style=flat&logo=Expo&logoColor=white"/> <img src="https://img.shields.io/badge/Android-3DDC84? style=flat&logo=Android&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933? style=flat&logo=Node.js&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E? style=flat&logo=JavaScript&logoColor=white"/></br>
-# 📎 Link To Prototype :
-[Reminiscence Diary - Proto.io](https://share.proto.io/F4PKA5/)
 # 📎 Link To Download apk  :
 [ReminiscenceDiary.apk](https://drive.google.com/file/d/1RnQFC78rwDjmVaMEPC9zzcOTaICkA1Ps/view?usp=sharing/)
 # 🎬 Introduction + Demo URL : 
