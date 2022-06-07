@@ -226,7 +226,7 @@ function EditDiaryScreen({route, navigation}) {
             />
           </View>
           {keywordview && 
-            <TextInput style={styles.input2} value={diaryKeyword(sumDiary(diary))} editable={false}/>}
+            <TextInput style={styles.input2} color = {"black"}  value={diaryKeyword(sumDiary(diary))} editable={false}/>}
           {!keywordview && 
           <TextInput
             style={styles.input2}

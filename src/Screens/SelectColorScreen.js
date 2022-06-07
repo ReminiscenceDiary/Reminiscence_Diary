@@ -158,9 +158,10 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(249, 235, 200, 0.11)',
   },
   modalTop: {
-    flex: 1,
+    flex: 1.1,
     flexDirection: 'row',
-    marginTop: 10
+    marginTop: 5,
+    padding: 5,
   },
   Top:{
     flex: 1,
@@ -231,7 +232,7 @@ const styles = StyleSheet.create({
     fontSize : 25,
     color: 'black',
     marginBottom: 10,
-    marginLeft: 10
+    marginLeft: 10,
   },
   colorbtn:{
     height:30, 
